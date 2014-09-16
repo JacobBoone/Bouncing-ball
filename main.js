@@ -19,6 +19,11 @@ function draw()
   context.arc(x,y,20,0,Math.PI*2,true);
   context.closePath();
   context.fill();
+ // Boundary Logic
+if( x<0 || x>300) dx=-dx; 
+if( y<0 || y>300) dy=-dy;
+
+  
   x+=dx;
   y+=dy;
 }

@@ -1,4 +1,11 @@
+body{
+	background: grey;
+}
+
 #myCanvas{
 	border-width: 1px;
 	border-color: gray;
+	background: white;
+	margin-left: 30%;
+	margin-top: 5%;
 }
